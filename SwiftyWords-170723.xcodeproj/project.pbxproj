@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B297EB61F27F7AB002C6953 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3B297EB51F27F7A5002C6953 /* level2.txt */; };
 		3BAEF94F1F27C5E200BC8DE3 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3BAEF94E1F27C5CC00BC8DE3 /* level1.txt */; };
 		3BF080711F27F2E500B37D8C /* myTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF080701F27F2E500B37D8C /* myTestVC.swift */; };
 		3BF254571F2408D1006EAD5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF254561F2408D1006EAD5C /* AppDelegate.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B297EB51F27F7A5002C6953 /* level2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = level2.txt; path = "../../../../../SWIFT3/Xcode-Projects/HackWithSwift/HackingWithSwift-master/project8-files/Content/level2.txt"; sourceTree = "<group>"; };
 		3BAEF94E1F27C5CC00BC8DE3 /* level1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 		3BF080701F27F2E500B37D8C /* myTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTestVC.swift; sourceTree = "<group>"; };
 		3BF254531F2408D1006EAD5C /* SwiftyWords-170723.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftyWords-170723.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +89,7 @@
 				3BF080701F27F2E500B37D8C /* myTestVC.swift */,
 				3BF2545D1F2408D2006EAD5C /* Assets.xcassets */,
 				3BAEF94E1F27C5CC00BC8DE3 /* level1.txt */,
+				3B297EB51F27F7A5002C6953 /* level2.txt */,
 				3BF2545F1F2408D2006EAD5C /* LaunchScreen.storyboard */,
 				3BF254621F2408D2006EAD5C /* Info.plist */,
 			);
@@ -183,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B297EB61F27F7AB002C6953 /* level2.txt in Resources */,
 				3BF254611F2408D2006EAD5C /* LaunchScreen.storyboard in Resources */,
 				3BAEF94F1F27C5E200BC8DE3 /* level1.txt in Resources */,
 				3BF2545E1F2408D2006EAD5C /* Assets.xcassets in Resources */,
