@@ -65,6 +65,7 @@
 		3BF2544A1F2408D1006EAD5C = {
 			isa = PBXGroup;
 			children = (
+				3B297EB71F27F8DF002C6953 /* level2.txt */,
 				3BF254551F2408D1006EAD5C /* SwiftyWords-170723 */,
 				3BF2546A1F2408D2006EAD5C /* SwiftyWords-170723Tests */,
 				3BF254541F2408D1006EAD5C /* Products */,
@@ -89,7 +90,6 @@
 				3BF080701F27F2E500B37D8C /* myTestVC.swift */,
 				3BF2545D1F2408D2006EAD5C /* Assets.xcassets */,
 				3BAEF94E1F27C5CC00BC8DE3 /* level1.txt */,
-				3B297EB71F27F8DF002C6953 /* level2.txt */,
 				3BF2545F1F2408D2006EAD5C /* LaunchScreen.storyboard */,
 				3BF254621F2408D2006EAD5C /* Info.plist */,
 			);
