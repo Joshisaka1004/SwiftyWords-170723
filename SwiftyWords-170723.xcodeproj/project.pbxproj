@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BAEF94F1F27C5E200BC8DE3 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3BAEF94E1F27C5CC00BC8DE3 /* level1.txt */; };
+		3BF080711F27F2E500B37D8C /* myTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF080701F27F2E500B37D8C /* myTestVC.swift */; };
 		3BF254571F2408D1006EAD5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF254561F2408D1006EAD5C /* AppDelegate.swift */; };
 		3BF254591F2408D2006EAD5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF254581F2408D2006EAD5C /* ViewController.swift */; };
 		3BF2545C1F2408D2006EAD5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF2545A1F2408D2006EAD5C /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BAEF94E1F27C5CC00BC8DE3 /* level1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		3BF080701F27F2E500B37D8C /* myTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTestVC.swift; sourceTree = "<group>"; };
 		3BF254531F2408D1006EAD5C /* SwiftyWords-170723.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftyWords-170723.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF254561F2408D1006EAD5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BF254581F2408D2006EAD5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,7 +84,9 @@
 				3BF254561F2408D1006EAD5C /* AppDelegate.swift */,
 				3BF254581F2408D2006EAD5C /* ViewController.swift */,
 				3BF2545A1F2408D2006EAD5C /* Main.storyboard */,
+				3BF080701F27F2E500B37D8C /* myTestVC.swift */,
 				3BF2545D1F2408D2006EAD5C /* Assets.xcassets */,
+				3BAEF94E1F27C5CC00BC8DE3 /* level1.txt */,
 				3BF2545F1F2408D2006EAD5C /* LaunchScreen.storyboard */,
 				3BF254621F2408D2006EAD5C /* Info.plist */,
 			);
@@ -178,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BF254611F2408D2006EAD5C /* LaunchScreen.storyboard in Resources */,
+				3BAEF94F1F27C5E200BC8DE3 /* level1.txt in Resources */,
 				3BF2545E1F2408D2006EAD5C /* Assets.xcassets in Resources */,
 				3BF2545C1F2408D2006EAD5C /* Main.storyboard in Resources */,
 			);
@@ -197,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BF080711F27F2E500B37D8C /* myTestVC.swift in Sources */,
 				3BF254591F2408D2006EAD5C /* ViewController.swift in Sources */,
 				3BF254571F2408D1006EAD5C /* AppDelegate.swift in Sources */,
 			);
@@ -353,11 +361,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VP93YUY9BE;
 				INFOPLIST_FILE = "SwiftyWords-170723/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.myswift4.SwiftyWords-170723";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -367,11 +376,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VP93YUY9BE;
 				INFOPLIST_FILE = "SwiftyWords-170723/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.myswift4.SwiftyWords-170723";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -426,6 +436,7 @@
 				3BF254721F2408D2006EAD5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BF254731F2408D2006EAD5C /* Build configuration list for PBXNativeTarget "SwiftyWords-170723Tests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +445,7 @@
 				3BF254751F2408D2006EAD5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
