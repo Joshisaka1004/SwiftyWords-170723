@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var currentAnswer: UITextField!
     @IBOutlet weak var answersLabel: UILabel!
     var score = 0
-    var level = 1
+    var level = 2
     var myWordButtons = [UIButton]()
     var activatedButtons = [UIButton]()
     var solutions = [String]()
