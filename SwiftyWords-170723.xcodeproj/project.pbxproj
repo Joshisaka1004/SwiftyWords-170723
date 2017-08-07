@@ -16,6 +16,7 @@
 		3BF2545E1F2408D2006EAD5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF2545D1F2408D2006EAD5C /* Assets.xcassets */; };
 		3BF254611F2408D2006EAD5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF2545F1F2408D2006EAD5C /* LaunchScreen.storyboard */; };
 		3BF2546C1F2408D2006EAD5C /* SwiftyWords_170723Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF2546B1F2408D2006EAD5C /* SwiftyWords_170723Tests.swift */; };
+		3BFE1C141F2E680500146DEB /* PuzzlesText.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3BFE1C131F2E67FD00146DEB /* PuzzlesText.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +31,7 @@
 
 /* Begin PBXFileReference section */
 		3B297EB71F27F8DF002C6953 /* level2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
-		3BAEF94E1F27C5CC00BC8DE3 /* level1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		3BAEF94E1F27C5CC00BC8DE3 /* level1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = level1.txt; path = "SwiftyWords-170723/level1.txt"; sourceTree = "<group>"; };
 		3BF080701F27F2E500B37D8C /* myTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTestVC.swift; sourceTree = "<group>"; };
 		3BF254531F2408D1006EAD5C /* SwiftyWords-170723.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftyWords-170723.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF254561F2408D1006EAD5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +43,7 @@
 		3BF254671F2408D2006EAD5C /* SwiftyWords-170723Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftyWords-170723Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF2546B1F2408D2006EAD5C /* SwiftyWords_170723Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyWords_170723Tests.swift; sourceTree = "<group>"; };
 		3BF2546D1F2408D2006EAD5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BFE1C131F2E67FD00146DEB /* PuzzlesText.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = PuzzlesText.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +67,9 @@
 		3BF2544A1F2408D1006EAD5C = {
 			isa = PBXGroup;
 			children = (
+				3BAEF94E1F27C5CC00BC8DE3 /* level1.txt */,
 				3B297EB71F27F8DF002C6953 /* level2.txt */,
+				3BFE1C131F2E67FD00146DEB /* PuzzlesText.txt */,
 				3BF254551F2408D1006EAD5C /* SwiftyWords-170723 */,
 				3BF2546A1F2408D2006EAD5C /* SwiftyWords-170723Tests */,
 				3BF254541F2408D1006EAD5C /* Products */,
@@ -89,7 +93,6 @@
 				3BF2545A1F2408D2006EAD5C /* Main.storyboard */,
 				3BF080701F27F2E500B37D8C /* myTestVC.swift */,
 				3BF2545D1F2408D2006EAD5C /* Assets.xcassets */,
-				3BAEF94E1F27C5CC00BC8DE3 /* level1.txt */,
 				3BF2545F1F2408D2006EAD5C /* LaunchScreen.storyboard */,
 				3BF254621F2408D2006EAD5C /* Info.plist */,
 			);
@@ -187,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B297EB81F27F8EB002C6953 /* level2.txt in Resources */,
+				3BFE1C141F2E680500146DEB /* PuzzlesText.txt in Resources */,
 				3BF254611F2408D2006EAD5C /* LaunchScreen.storyboard in Resources */,
 				3BAEF94F1F27C5E200BC8DE3 /* level1.txt in Resources */,
 				3BF2545E1F2408D2006EAD5C /* Assets.xcassets in Resources */,
